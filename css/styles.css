@@ -6,6 +6,10 @@
   line-height: 1.5;
   color: #2e2f42;
 }
+h1, h2, h3, h4, h5, h6, p, ul {
+  margin: 0;
+  padding:0
+}
 .logo-text-header {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -13,6 +17,7 @@
   letter-spacing: 0.03em;
   line-height: 1.16;
   color: #2e2f42;
+  margin:24px 0 0 156px;
 }
 .logo-text-footer {
   font-family: "Raleway", sans-serif;
@@ -48,11 +53,12 @@ p {
 .order-service-button {
   background-color: #4d5ae5;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 16px; 
   letter-spacing: 0.04em;
   line-height: 1.5;
   cursor: pointer;
   color: #ffffff;
+  width: ;
 }
 .order-service-button:hover {
   background-color: #404bbf;
@@ -69,6 +75,7 @@ p {
 }
 .address a {
   color: #2e2f42;
+  
 }
 .address a:hover {
   color: #404bbf;
@@ -78,9 +85,18 @@ p {
 }
 .section-1 {
   background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
 }
 .section-1 h1 {
   color: #ffffff;
+  width: 496px;
+  height: 120px;
 }
 .section-3 {
   background-color: #f4f4fd;
@@ -96,4 +112,27 @@ a {
 }
 li {
   list-style-type: none; ;
+}
+header{
+  display: flex;
+  width: 1440px;
+  height: 72px;
+}
+nav ul {
+  display: flex;
+  margin: 24px 0 0 347px;
+  gap: 40px;
+}
+address{
+  display: flex;
+  margin: 24px 0 0 156px;
+  gap:8px;
+}
+.section-2 ul {
+  display: flex;
+  gap: 8px;
+  margin: 24px 0 0 156px;
+  box-sizing: border-box;
+  max-width: 1440px;
+
 }
