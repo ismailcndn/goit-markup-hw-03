@@ -58,7 +58,6 @@ p {
   line-height: 1.5;
   cursor: pointer;
   color: #ffffff;
-  width: ;
 }
 .order-service-button:hover {
   background-color: #404bbf;
@@ -100,6 +99,21 @@ p {
 }
 .section-3 {
   background-color: #f4f4fd;
+  width: 1440px;
+  height: 732px;
+}
+.section-3 h2{
+  justify-content: center;
+  display: flex;
+}
+.section-3 li{
+  width: 264px;
+  height: 380px;
+  background-color: #ffffff;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 4px;
 }
 .footer {
   background-color: #2e2f42;
