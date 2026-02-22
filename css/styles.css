@@ -1,0 +1,99 @@
+.body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: #2e2f42;
+}
+.logo-text-header {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  line-height: 1.16;
+  color: #2e2f42;
+}
+.logo-text-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  line-height: 1.16;
+  color: #f4f4fd;
+}
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  line-height: 1.07;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+}
+p {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+.order-service-button {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  cursor: pointer;
+  color: #ffffff;
+}
+.order-service-button:hover {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+.navbar a {
+  color: #2e2f42;
+}
+.navbar a:hover {
+  color: #404bbf;
+}
+.navbar a:active {
+  color: #4d5ae5;
+}
+.address a {
+  color: #2e2f42;
+}
+.address a:hover {
+  color: #404bbf;
+}
+.address a:active {
+  color: #4d5ae5;
+}
+.section-1 {
+  background-color: #2e2f42;
+}
+.section-1 h1 {
+  color: #ffffff;
+}
+.section-3 {
+  background-color: #f4f4fd;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.footer p {
+  color: #f4f4fd;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none; ;
+}
