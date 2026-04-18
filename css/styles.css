@@ -2,13 +2,12 @@
   box-sizing: border-box;
 }
 .container {  
-  width: 1440px;
+  max-width: 1158px;
   margin: 0 auto;
   align-items: center;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  padding: 120px 0;
+  padding: 120px 15px;
 }
 .body {
   font-family: "Roboto", sans-serif;
@@ -29,18 +28,17 @@ h1, h2, h3, h4, h5, h6, p, ul {
   letter-spacing: 0.03em;
   line-height: 1.16;
   color: #2e2f42;
+  margin-right: 76px;
 }
 header .container{
-  max-width: 1440px;
   border-bottom: 1px solid #e7e9fc;
   display: flex;
   flex-direction: row;
   padding: 24px 0;
 }
-
 nav ul {
   display: flex;
-  margin-left: auto;
+  margin-left: 76px;
   gap: 40px;
 }
 
@@ -114,6 +112,7 @@ p {
 
 .section-1 {
   background-color: #2e2f42;
+  padding: 188px 0px;
 }
 .section-1 h1 {
   color: #ffffff;
@@ -145,7 +144,7 @@ p {
   flex-direction: column;
   align-items: center;
   border-radius: 4px;
-  margin: 72px 0;
+  margin-top: 72px;
   }
 
 .team-list-item-info {
@@ -161,11 +160,11 @@ p {
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
-  margin:72px 0;
+  margin-top:72px;
 }
 .portfolio-list-item {
   padding-bottom: 24px;
-  flex-basis: calc((100%-24px)/3);
+  flex-basis: calc((100% - 24px)/3);
   border: 1px solid #E7E9FC;
 }
 .portfolio-list-item-info {
@@ -176,13 +175,16 @@ p {
 }
 .footer{
   background-color: #2e2f42;
+  height: 312px;
 }
 
 .footer .container {
-  width: 264px;
-  margin-left: 156px;
   display: flex;
   align-items: flex-start;
+  padding-top: 100px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  
 }
 
 .logo-text-footer {
@@ -195,6 +197,10 @@ p {
 }
 .footer p {
   color: #f4f4fd;
+  margin-top: 16px;
+  width: 262px;
+  height: 112px;
+  
 }
 
 a {
